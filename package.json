@@ -1,7 +1,7 @@
 {
   "name": "podcast-tagger",
   "version": "1.0.0",
-  "description": "",
+  "description": "A podcast ID3 tagging command line app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,11 @@
   "bin": {
     "podcast-tagger": "index.js"
   },
-  "author": "",
+  "author": "sirtimbly",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirtimbly/podcast-logger"
+  },
   "license": "ISC",
   "dependencies": {
     "browser-id3-writer": "^4.0.0",
