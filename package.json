@@ -1,0 +1,19 @@
+{
+  "name": "podcast-tagger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "podcast-tagger": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-id3-writer": "^4.0.0",
+    "commander": "^2.13.0"
+  }
+}
